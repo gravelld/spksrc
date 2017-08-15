@@ -60,3 +60,12 @@ When not explicitly set, files are placed under a `3 clause BSD license`_
 .. _FAQ: https://github.com/SynoCommunity/spksrc/wiki/Frequently-Asked-Questions
 .. _Install Docker with wget: https://docs.docker.com/linux/step_one
 .. _SynoCommunity repository: http://www.synocommunity.com
+
+
+DSM 6.x status
+--------------
+At the moment, DSM 6.x packages are not available from the online repository at http://packages.synocommunity.com . To provide these packages, SynoCommunity need to:
+
+1. Import the DSM 6.x toolchains #2666 #2727
+1. Test (and potentially make changes to) the packages #2661
+1. Rewrite the repository server [https://github.com/Diaoul/spkrepo/pull/8]
